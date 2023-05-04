@@ -1,0 +1,11 @@
+div.weather__temp{
+    flex-direction: column;
+}
+
+/* day contianers */
+div.weather__temp > div{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 3rem;
+        align-items: center;
+}
